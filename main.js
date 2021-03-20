@@ -35,7 +35,7 @@ function createAboutWindow() {
     resizable: false,
     backgroundColor: 'white',
   });
-
+  aboutWindow.removeMenu();
   aboutWindow.loadFile('./app/about.html');
 }
 
